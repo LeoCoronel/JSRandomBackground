@@ -10,8 +10,14 @@ body {
 .container {
     height: 800px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+p {
+    color: #fff;
+    padding: 15px;
 }
 
 .btn-change {
